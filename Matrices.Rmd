@@ -1,0 +1,27 @@
+---
+title: "Matrices"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+
+---
+```{r}
+a=matrix(1:15,nrow=5)
+b=matrix(16:30,nrow=3)
+a
+b
+# Matrix addition
+c=t(b)
+a+c
+# Matrix Multiplication
+a%*%b
+```
+
+Arrays (N dimensional)
+```{r}
+d=array(1:16, dim=c(4,2,2))
+d
+d[,,2]
+d[,1,1]
+```
