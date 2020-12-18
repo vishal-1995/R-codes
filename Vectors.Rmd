@@ -1,0 +1,36 @@
+---
+title: "Vectors"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+---
+
+Vector Creation
+```{r}
+a=c(1:20)
+a
+```
+Vector Operation
+```{r}
+a+3
+a-2
+a^2
+b=c(-4:1)
+a+b
+d=c(-4:9)
+a
+d
+any(a<d)
+all(a<d)
+a[4]
+f=c("january","february","march","april","may","june")
+nchar(f)
+```
+Naming Vectors
+```{r}
+c(one="a",two="b",three="c")
+w=1:3
+names(w)=c("a","b","c")
+w
+```
