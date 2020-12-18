@@ -1,0 +1,38 @@
+---
+title: "Data types"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+
+---
+
+Data types are as follows:
+
+1) Numeric
+```{r}
+a=20
+class(a)
+```
+2)Character
+```{r}
+b="Hello"
+class(b)
+```
+3) Logical
+```{r}
+c=TRUE
+class(c)
+d=FALSE
+class(d)
+```
+4) Date
+```{r}
+date1=as.Date("2015-04-16")
+class(date1)
+```
+5)POSIXct - Date & Time
+```{r}
+date2=as.POSIXct("2015-5-18 16:32")
+class(date2)
+```
