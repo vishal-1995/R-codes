@@ -1,0 +1,16 @@
+---
+title: "Read table"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+```{r}
+url=read.table("C:\\Users\\Vishal Kumar\\Desktop\\To study change management.csv",header=TRUE,sep=",")
+head(url)
+```
+
+Loading Built in data sets
+```{r}
+data("mtcars")
+head(mtcars, 7)
+```
