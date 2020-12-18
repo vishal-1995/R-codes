@@ -1,0 +1,60 @@
+---
+title: "Introduction to R"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+
+---
+Object creation & Value assignment
+```{r}
+a=25
+b=30
+```
+
+Command line Interface
+```{r}
+b
+```
+
+Object need not be explicitly defined
+```{r}
+c=45
+class(c)
+d=TRUE
+class(d)
+```
+Simple Mathematical Operations:
+
+1) Addition
+```{r}
+a+b
+```
+2)Subtraction
+```{r}
+b-a
+```
+3) Division
+```{r}
+b/a
+```
+4) Multiplication
+```{r}
+b*a
+```
+5) Square root
+```{r}
+sqrt(a)
+```
+6) Power
+```{r}
+a^3
+```
+7)logarithm 
+```{r}
+log(a,base=exp(1))
+```
+8) Factorial
+```{r}
+factorial(a)
+```
