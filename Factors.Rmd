@@ -1,0 +1,27 @@
+---
+title: "Factors"
+author: "Vishal Kumar"
+date: "12/18/2020"
+output: word_document
+---
+---
+```{r}
+rm(list=ls())
+a=c("jan","feb","mar","apr")
+a
+as.numeric(a)
+class(a)
+b=as.factor(a)
+as.numeric(b)
+b
+# Missing Value test
+c=c(1,2,3,NA,NA,5)
+is.na(c)
+d=c("jan",NA,"feb")
+is.na(d)
+# Null value
+e=c(NULL,3,4)
+is.null(e)
+f=NULL
+is.null(f)
+```
