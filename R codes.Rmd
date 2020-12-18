@@ -6,55 +6,22 @@ output: word_document
 ---
 
 ---
-Object creation & Value assignment
 ```{r}
-a=25
-b=30
-```
-
-Command line Interface
-```{r}
+a=matrix(2:11,nrow=5)
+b=matrix(10:19,nrow=2)
+a
 b
+# Matrix addition
+c=t(b)
+a+c
+# Matrix Multiplication
+a%*%b
 ```
 
-Object need not be explicitly defined
+Arrays (N dimensional)
 ```{r}
-c=45
-class(c)
-d=TRUE
-class(d)
-```
-Simple Mathematical Operations:
-
-1) Addition
-```{r}
-a+b
-```
-2)Subtraction
-```{r}
-b-a
-```
-3) Division
-```{r}
-b/a
-```
-4) Multiplication
-```{r}
-b*a
-```
-5) Square root
-```{r}
-sqrt(a)
-```
-6) Power
-```{r}
-a^3
-```
-7)logarithm 
-```{r}
-log(a,base=exp(1))
-```
-8) Factorial
-```{r}
-factorial(a)
+d=array(1:16, dim=c(4,2,2))
+d
+d[,,2]
+d[,1,1]
 ```
